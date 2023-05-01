@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+    font-family: 'Titillium Web', sans-serif;
+    overflow-y: hidden;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, .6);
+}
+
+
+h1 {
+    color: #000000;
+}
+
+.group {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+input,
+textarea {
+    background-color: transparent !important;
+    color: #000000 !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+.logbtn {
+
+    width: 60%;
+    font-size: 1.4rem;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(120deg, #3498db, #8e44ad, #3498db);
+    background-size: 200%;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.logbtn:hover {
+    background-position: right;
+    color: #fff;
+}
+
+.nav-link{
+    font-size: 1.1rem;
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(120deg, #3498db, #8e44ad, #3498db);
+    background-size: 200%;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+.nav-link:hover{
+    background-position: right;
+}
